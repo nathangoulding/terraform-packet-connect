@@ -1,5 +1,5 @@
 # Packet Connect Terraform
-This terraform script demonstrates end-to-end connectivity with Azure, provisioned on Packet using terraform.
+This repository demonstrates setting up end-to-end connectivity with Azure on Packet using Terraform and Packet Connect.
 
 ![demo](./tf-packet-connect.gif)
 
@@ -20,10 +20,13 @@ In Packet:
 
 # Usage
 
-Edit `create.tf` and substitute the `locals` section to the appropriate settings, then:
+Clone this repository locally, edit `main.tf` and substitute the `locals` section to the appropriate variables, then:
 
 ```
 terraform plan
+```
+Assuming no errors,
+````
 terraform apply
 ```
 
