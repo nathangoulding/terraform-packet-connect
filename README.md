@@ -1,5 +1,5 @@
 # Packet Connect Terraform
-This repository demonstrates setting up end-to-end connectivity with Azure on Packet using Terraform and Packet Connect.
+This repository demonstrates setting up end-to-end connectivity with Azure and Packet using Terraform and Packet Connect.
 
 ![demo](./tf-packet-connect.gif)
 
