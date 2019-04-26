@@ -25,8 +25,10 @@ Clone this repository locally, edit `main.tf` and substitute the `locals` sectio
 ```
 terraform plan
 ```
-Assuming no errors,
-````
+
+Assuming no errors, create the necessary resources with:
+
+```
 terraform apply
 ```
 
