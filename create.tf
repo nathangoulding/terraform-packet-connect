@@ -1,6 +1,6 @@
 locals {
   # ssh keyfile
-  ssh_key = "${file("/Users/nathangoulding/.ssh/id_rsa.priv")}"
+  ssh_key = "${file("/home/user/.ssh/privkey")}"
   # the IP and subnet you wish to announce to azure
   bgp_ip = "10.99.99.1"
   bgp_netmask = "255.255.255.255"
